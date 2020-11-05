@@ -148,8 +148,8 @@ namespace UsbSerialExampleApp
 
             serialIoManager = new SerialInputOutputManager(port)
             {
-                //BaudRate = 115200,
-                BaudRate = 9600,
+                BaudRate = 115200,
+                // BaudRate = 9600,
                 DataBits = 8,
                 StopBits = StopBits.One,
                 Parity = Parity.None,
